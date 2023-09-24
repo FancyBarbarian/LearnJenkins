@@ -13,7 +13,7 @@ Jenkins can be installed through native system packages, Docker, or even run sta
 ## Installing Jenkins : 
 
 ### 1. Windows : 
-- Use the installer from 
+- Use the installer from  
 'https://www.jenkins.io/download/#downloading-jenkins'
 
 
