@@ -13,7 +13,26 @@ Jenkins can be installed through native system packages, Docker, or even run sta
 ## Installing Jenkins : 
 
 ### 1. Windows : 
-- Use the installer from  
-'https://www.jenkins.io/download/#downloading-jenkins'
+- Use the installer from:  
+    `https://www.jenkins.io/download/#downloading-jenkins`
+
+
+### 2. Jenkins Features : 
+
+- Automatic Job definition : jenkins can automatically create, update or delete jobs based on repositories it identifies.
+- Organization folder : jenkins can build jobs with repositories in an organization folder like github organizations, bucket teams or gitlabs group.
+- Multibranch pipelines : Jenkins can build jobs with multibranch pipelines.  
+    `Note : Jenkins Pipeline (or simply "Pipeline" with a capital "P") is a suite of plugins which supports implementing and integrating continuous delivery pipelines into Jenkins. [reference : https://www.jenkins.io/doc/book/pipeline/]`
+
+### 3. Running Jobs : 
+
+- By default jenkins runs jobs on built-in node. 
+- To use a different not we can use following :  
+    `Manage Jenkins » Nodes and Clouds`
+- We can set built-in executor to 0 to prevent jenkins from running on built-in node.
+- We can also setup agents here.
+- We need to have atleast one agent to run builds.
+
+`The Jenkins controller and agents can be thought of as a distributed process which executes across multiple discrete processes and machines.`  
 
 
